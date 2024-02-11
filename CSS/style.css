@@ -1,0 +1,551 @@
+
+nav .container .nav-item {
+    position: relative  !important;
+}
+
+nav .container .nav-item .here1::after{
+    content: '' !important;
+    position: absolute !important;
+    height: 1.5px !important;
+    width: 64% !important;
+    left: 9px !important;
+    top: 40px !important;
+    background-color: white;
+    transition: width 1s 0s;
+
+}
+nav .container .nav-item .here::before{
+    content: '' !important;
+    position: absolute !important;
+    height: 1.5px !important;
+    width: 0% !important;
+    top: 40px !important;
+    background-color: white;
+    transition: width 1s 0s;
+}
+
+nav .container .nav-item .here:hover::before{
+    width: 60% !important;
+}
+
+nav .container .collapse .nav-item .dropdown-menu li:hover a{
+color: #0078FF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================= */
+#home{
+min-height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.67) , rgba(0, 0, 0, 0.67)) , url(../image/hero-bg.jpg);
+position: relative;
+background-position: center center;
+background-size: cover;
+overflow: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+background-attachment: fixed;
+
+}
+#home p{
+    display: block;
+    height: 10px;
+    font-size: 22px;
+    animation-name: lol;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#home p::before{
+    content: '';
+    animation-name: design;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes design{
+    1.05%{content: 'D' ; visibility: visible;}
+    2.1%{content: 'De'; visibility: visible;}
+    3.15%{content: 'Des'; visibility: visible;}
+    4.2%{content: 'Desg'; visibility: visible;}
+    5.25%{content: 'Desgi'; visibility: visible;}
+    6.3%{content: 'Desgin'; visibility: visible;}
+    7.35%{content: 'Desgine'; visibility: visible;}
+    8.4%{content: 'Desginer'; visibility: visible;}
+    9.45%{content: 'Desginer'; visibility: visible;}
+    10.5%{content: 'Desginer';visibility: visible; }  
+    11.55%{content: 'Desginer';visibility: visible;} 
+    12.6%{content: 'Desginer';visibility: visible;} 
+    13.65%{content: 'Desgine';visibility: visible;}
+    14.7%{content: 'Desgin';visibility: visible;}
+    15.75%{content: 'Desgi';visibility: visible;}
+    16.8%{content: 'Desg';visibility: visible;}
+    17.85%{content: 'Des';visibility: visible;}
+    18.9%{content: 'De';visibility: visible;}
+    19.95%{content: 'De';visibility: visible;}
+    21%{content: 'Dev';visibility: visible;}
+    22.05%{content: 'Deve';visibility: visible;}
+    23.1%{content: 'Devel';visibility: visible;}
+    24.15%{content: 'Develo';visibility: visible;}
+    25.2%{content: 'Develop';visibility: visible;}
+    26.25%{content: 'Develope';visibility: visible;}
+    27.3%{content: 'Developer';visibility: visible;}
+    28.35%{content: 'Developer';visibility: visible;}
+    29.4%{content: 'Developer';visibility: visible;}
+    30.45%{content: 'Developer';visibility: visible;}
+    31.5%{content: 'Developer';visibility: visible;}
+   
+    32.55%{content: 'Develope';visibility: visible;}
+    33.6%{content: 'Develop';visibility: visible;}
+    34.65%{content: 'Develo';visibility: visible;}
+    35.7%{content: 'Devel';visibility: visible;}
+    36.75%{content: 'Deve';visibility: visible;}
+    37.8%{content: 'Dev';visibility: visible;}
+    38.85%{content: 'De';visibility: visible;}
+    39.9%{content: 'D';visibility: visible;}
+    40.95%{content: '';visibility: visible;}
+    42%{content: 'F';visibility: visible;}
+    43.05%{content: 'Fr';visibility: visible;}
+    44.1%{content: 'Fre';visibility: visible;}
+    45.15%{content: 'Free';visibility: visible;}
+    46.2%{content: 'Freel';visibility: visible;}
+    47.25%{content: 'Freela';visibility: visible;}
+    
+    48.3%{content: 'Freelan';visibility: visible;}
+    
+    49.35%{content: 'Freelanc';visibility: visible;}
+    50.4%{content: 'Freelance';visibility: visible;}
+    51.45%{content: 'Freelancer';visibility: visible;}
+    52.5%{content: 'Freelancer';visibility: visible;}
+    
+    53.55%{content: 'Freelancer';visibility: visible;}
+    54.6%{content: 'Freelancer';visibility: visible;}
+    55.65%{content: 'Freelancer';visibility: visible;}
+    56.7%{content: 'Freelance';visibility: visible;}
+    57.75%{content: 'Freelanc';visibility: visible;}
+    58.8%{content: 'Freelan';visibility: visible;}
+    59.85%{content: 'Freela';visibility: visible;}
+    60.9%{content: 'Freel';visibility: visible;}
+    61.95%{content: 'Free';visibility: visible;}
+    63%{content: 'Fre';visibility: visible;}
+    64.05%{content: 'Fr';visibility: visible;}
+    65.1%{content: 'F';visibility: visible;}
+    66.15%{content: '';visibility: visible;}
+    67.2%{content: 'P';visibility: visible;}
+    68.25%{content: 'Ph';visibility: visible;}
+    69.3%{content: 'Pho';visibility: visible;}
+    70.35%{content: 'Phot';visibility: visible;}
+    71.4%{content: 'Photo';visibility: visible;}
+    72.45%{content: 'Photog';visibility: visible;}
+    73.5%{content: 'Photogr';visibility: visible;}
+    74.55%{content: 'Photogra';visibility: visible;}
+    75.6%{content: 'Photograp';visibility: visible;}
+    76.65%{content: 'Photograph';visibility: visible;}
+    77.77%{content: 'Photographe';visibility: visible;}
+    78.75%{content: 'Photographer';visibility: visible;}
+    79.8%{content: 'Photographer';visibility: visible;}
+    80.85%{content: 'Photographer';visibility: visible;}
+    81.9%{content: 'Photographer';visibility: visible;}
+    82.95%{content: 'Photographer';visibility: visible;}
+    84%{content: 'Photographe';visibility: visible;}
+    85.08%{content: 'Photograph';visibility: visible;}
+    86.1%{content: 'Photograp';visibility: visible;}
+    87.15%{content: 'Photogra';visibility: visible;}
+    88.2%{content: 'Photogr';visibility: visible;}
+    89.25%{content: 'Photog';visibility: visible;}
+    90.3%{content: 'Photo';visibility: visible;}
+    91.5%{content: 'Phot';visibility: visible;}
+    92.4%{content: 'Pho';visibility: visible;}
+    93.45%{content: 'Ph';visibility: visible;}
+    94.5%{content: 'P';visibility: visible;}
+    95.55%{content: '';visibility: visible;}
+  
+
+}
+@keyframes lol{
+    1.05% {visibility: visible;}
+    2.1%{visibility: visible;}
+    3.15%{visibility: visible;}
+    4.2%{visibility: visible;}
+    5.25%{visibility: visible;}
+    6.3%{visibility: visible;}
+    7.35%{visibility: visible;}
+    8.4%{visibility: hidden;}
+    9.45%{visibility:hidden;}
+    10.5%{visibility: hidden;}
+    11.55%{visibility: visible;}
+    12.6%{visibility: visible;}
+    13.65%{visibility: visible;}
+    14.7%{visibility: visible;}
+    15.75%{visibility: visible;}
+    16.8%{visibility: visible;}
+    17.85%{visibility: visible;}
+    18.9%{visibility: visible;}
+    19.95%{visibility: visible;}
+    21%{visibility: visible;}
+    22.05%{visibility: visible;}
+    23.1%{visibility: visible;}
+    24.15%{visibility: visible;}
+    25.2%{visibility: visible;}
+    26.25%{visibility: visible;}
+    27.3%{visibility: visible;}
+    28.35%{visibility: hidden;}
+    29.4%{visibility: hidden;}
+    30.45%{visibility: hidden;}
+    31.5%{visibility: visible;}
+   
+    32.55%{visibility: visible;}
+    33.6%{visibility: visible;}
+    34.65%{visibility: visible;}
+    35.7%{visibility: visible;}
+    36.75%{visibility: visible;}
+    37.8%{visibility: visible;}
+    38.85%{visibility: visible;}
+    39.9%{visibility: visible;}
+    40.95%{visibility: visible;}
+    42%{visibility: visible;}
+    43.05%{visibility: visible;}
+    44.1%{visibility: visible;}
+    45.15%{visibility: visible;}
+    46.2%{visibility: visible;}
+    47.25%{visibility: visible;}
+    
+    48.3%{visibility: visible;}
+    
+    49.35%{visibility: visible;}
+    50.4%{visibility: visible;}
+    51.45%{visibility: visible;}
+    52.5%{visibility: hidden;}
+    
+    53.55%{visibility: hidden;}
+    54.6%{visibility: hidden;}
+    55.65%{visibility: visible;}
+    56.7%{visibility: visible;}
+    57.755%{visibility: visible;}
+    58.8%{visibility: visible;}
+    59.85%{visibility: visible;}
+    60.9%{visibility: visible;}
+    61.9%{visibility: visible;}
+    63%{visibility: visible;}
+    64.05%{visibility: visible;}
+    65.1%{visibility: visible;}
+    66.15%{visibility: visible;}
+    67.2%{visibility: visible;}
+    68.25%{visibility: visible;}
+    69.3%{visibility: visible;}
+    70.35%{visibility: visible;}
+    71.4%{visibility: visible;}
+    72.45%{visibility: visible;}
+    73.5%{visibility: visible;}
+    74.55%{visibility: visible;}
+    75.6%{visibility: visible;}
+    76.65%{visibility: visible;}
+    77.77%{visibility: visible;}
+    78.75%{visibility: visible;}
+    79.8%{visibility: hidden;}
+    80.85%{visibility: hidden;}
+    81.9%{visibility: hidden;}
+    82.95%{visibility: visible;}
+    84%{visibility: visible;}
+    85.08%{visibility: visible;}
+    86.1%{visibility: visible;}
+    87.15%{visibility: visible;}
+    88.2%{visibility: visible;}
+    89.25%{visibility: visible;}
+    90.3%{visibility: visible;}
+    91.5%{visibility: visible;}
+    92.4%{visibility: visible;}
+    93.45%{visibility: visible;}
+    94.5%{visibility: visible;}
+    95.55%{visibility: visible;}
+  
+
+}
+
+#About{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+#About .here h5{
+    font-size: 32px !important;
+    position: relative !important;
+}
+#About .here h5::after{
+content: '';
+position: absolute;
+width: 23%;
+height: 3px;
+top: 40px;
+left: 0;
+background-color: #0078FF ;
+}
+
+/* ================================================= */
+
+
+#SERVICES{
+    min-height: 100vh !important;
+   
+}
+#SERVICES .here p{
+    display: block !important;
+    position: relative !important;
+    
+}
+#SERVICES .here p::after{
+content: '';
+position: absolute;
+width: 2%;
+height: 4px;
+top: 37px;
+left: 49%;
+/* margin-inline: auto; */
+background-color: #0078FF ;
+margin-bottom: 40px;
+}
+
+#SERVICES .her{
+    margin-top: 50px !important;
+
+}
+#SERVICES .her i{
+    height: 100px;
+    width: 100px;
+    padding-top: 28px !important;
+    margin: 20px 0px;
+    /* padding-top: 25px !important; */
+}
+
+#SERVICES .content1 i{
+    border: solid #0078FF 8px !important;
+    box-sizing: border-box !important;
+}
+#SERVICES .content1:hover i{
+    background-color: #0078FF !important;
+    border-color: #CDE1F8 !important;
+}
+#SERVICES .content1 p{
+    margin-bottom: 40px !important;
+    padding-bottom: 25px !important;
+}
+#SERVICES .works{
+    /* height: 500px; */
+    background-image: linear-gradient(#3b8eed89 , #3b8eed89) , url(../image/counters-bg.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#SERVICES .works i{
+    height: 75px;
+    width: 75px;
+    margin-top: 100px;
+    margin-bottom: 8px;
+    border: solid #CDE1F8 8px !important;
+    box-sizing: border-box !important;
+}
+#SERVICES .works p{
+    /* margin-b: 100px; */
+    margin-bottom: 100px;
+    /* background-color: aqua; */
+}
+
+
+
+
+
+/* ===================================== */
+
+#work{
+    min-height: 100vh !important;
+   
+}
+#work .here h2{
+    padding-top: 50px !important;
+}
+#work .here p{
+    display: block !important;
+    position: relative !important;
+    
+}
+#work .here p::after{
+content: '';
+position: absolute;
+width: 2%;
+height: 4px;
+top: 37px;
+left: 49%;
+/* margin-inline: auto; */
+background-color: #0078FF ;
+margin-bottom: 40px;
+}
+#work .container{
+    margin-top: 75px !important;
+}
+#work .cards{
+    border-radius: 0% !important;
+}
+
+#work .col-9 p {
+    font-size: 12.8px !important;
+}
+#work .col-9 p span{
+    font-size: 12.8px !important;
+}
+#work .col-9 p.here{
+    font-size: 19.2px !important;
+    font-weight: 500 !important;
+}
+#work .col-3 i{
+text-align: center;
+padding-top: 7px;
+margin-top: 20px;
+margin-left: 20px;
+width: 35px;
+height: 35px;
+}
+
+#work .card img{
+    transition: 3s 0s transform !important;
+}
+#work .card{
+    overflow: hidden;
+    border: none !important;
+    border-radius: 0px !important;
+}
+#work .card:hover img{
+    transform: scale(1.2) !important;
+}
+#work .row{
+    padding-bottom: 25px !important;
+}
+
+#work .developers{
+    height: 500px;
+    background-image: linear-gradient(#3b8eed89 , #3b8eed89) , url(../image/overlay-bg.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#work .developers .carousel-indicators{
+    position: static;
+    margin-top: 10px !important;
+}
+#work .developers .carousel-indicators button{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+}
+
+#work .developers .carousel-item{
+ margin-top: 150px !important;
+}
+
+/* ========================================================= */
+#BLOG{
+    min-height: 100vh !important;
+   
+}
+#BLOG .here h2{
+    padding-top: 50px !important;
+}
+#BLOG .here p{
+    display: block !important;
+    position: relative !important;
+    
+}
+#BLOG .here p::after{
+content: '';
+position: absolute;
+width: 2%;
+height: 4px;
+top: 37px;
+left: 49%;
+/* margin-inline: auto; */
+background-color: #0078FF ;
+margin-bottom: 40px;
+}
+#BLOG .container .card-body a{
+    transition: color 1s ;
+}
+#BLOG .container .card-body a:hover{
+    color: #0078FF !important;
+}
+#BLOG .lol .heree:hover h6{
+color: #0078FF !important;
+}
+#BLOG .lol .heree h6{
+    transition: color 1s ;
+}
+#BLOG .row p{
+    font-size: 14px !important;
+}
+
+/* ========================================================================= */
+/* #footer .container .row .col-6 .data h2{
+    position: relative;
+} */
+#contact{
+     background-image: linear-gradient(#3b8eed89 , #3b8eed89) , url(../image/overlay-bg.jpg) ;
+    
+    background-position: center center;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-inline:15%;
+    /* box-shadow: ; */
+    z-index: 999999999999999 !important;
+    box-shadow:#91b9e6 0px 0px 0px 3px , #91b9e6 0px 0px 0px 3px , #91b9e6 0px 0px 0px 3px !important; 
+}
+footer .copyright{
+    background-color: #5794da !important;
+}
+
+
+#contact .data h3::before{
+    content: '' !important;
+    position: absolute !important;
+    width: 15% !important;
+    height: 3px !important;
+    background-color: #0078FF !important;
+    top: 40px !important;
+    left: 0px !important;
+    
+}
+#contact .data h3{
+    margin-bottom: 30px !important;
+}
+#contact .data input{
+    outline: none !important;
+}
+#contact .data input:focus{
+    border: 1px solid rgb(70, 120, 250)!important;
+ box-shadow:#91b9e6 0px 0px 0px 3px;
+    
+}
+#contact .data textarea{
+    outline: none !important;
+}
+#contact .data textarea:focus{
+    border: 1px solid rgb(70, 120, 250)!important;
+ box-shadow:#91b9e6 0px 0px 0px 3px;
+}
+#contact .data i{
+
+    transition: background-color 0.5s 0s , border 0.5s 0s  !important;
+}
+#contact .data a:hover i{
+    
+    background-color: #0078FF !important;
+    border-color: #CDE1F8 !important;
+   
+}
